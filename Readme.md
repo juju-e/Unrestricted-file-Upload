@@ -36,8 +36,8 @@ here is the output we get:
 ![](/ìmg/hack4.png)
 Then let's execute a nasty command like del which will delete a file, for my case i'm going to delete the "index.php" file which is the main file.
 The "index.php" file will be automatically deleted and the website will encounter problems.
-This can be very scary as someone might be controlling your computer from within your website itself.
-Then i made another script which takes url parameters to execute a command via shell and return the result.
+This can be very scary as someone might be controlling your computer from within your website itself.<br>
+Then i made another script which takes url parameters to execute a command via shell and return the result.<br>
 Here is it's code:
 ```
 <?php
