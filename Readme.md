@@ -28,12 +28,12 @@ if ($_POST['exploit']) {
 ```
 As you see i used shell exec which can invoke a command via shell and return the result.
 Let's first unsecurely upload our file
-![](/img/hack2.jpg)<br>
-![](/img/hack1.png)<br>
+![](/ìmg/hack2.jpg)<br>
+![](/ìmg/hack1.png)<br>
 Let's first a simple command like 'dir':
-![](/img/hack3.jpg)<br>
+![](/ìmg/hack3.jpg)<br>
 here is the output we get:
-![](/img/hack4.png)
+![](/ìmg/hack4.png)
 Then let's execute a nasty command like del which will delete a file, for my case i'm going to delete the "index.php" file which is the main file.
 The "index.php" file will be automatically deleted and the website will encounter problems.
 This can be very scary as someone might be controlling your computer from within your website itself.
